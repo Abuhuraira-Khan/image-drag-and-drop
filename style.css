@@ -1,0 +1,39 @@
+
+.container{
+    background: #e4e4e2;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 5px;
+    border: 2px dotted rgb(63, 148, 63, 40%);
+}
+.container.active{
+    border: 2px solid #3f943f;
+}
+.container i{
+    color: #3f943f;
+    margin-top: 10%;
+    font-size: 70px;
+}
+.container button{
+    color: #0e35a0;
+    border:none;
+    outline:none;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.container fieldset{
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    outline: none;
+}
+
+.container img{
+    width: 400px;
+    height: 300px;
+}
